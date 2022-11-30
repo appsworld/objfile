@@ -19,8 +19,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"objdump/internal/bio"
-	"objdump/internal/goobj"
+	"objfile/internal/bio"
+	"objfile/internal/goobj"
 )
 
 /*

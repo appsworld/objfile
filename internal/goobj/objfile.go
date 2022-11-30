@@ -24,7 +24,7 @@ import (
 	"errors"
 	"fmt"
 	"internal/unsafeheader"
-	"objdump/internal/bio"
+	"objfile/internal/bio"
 	"unsafe"
 )
 

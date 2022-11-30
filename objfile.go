@@ -10,7 +10,7 @@ import (
 	"debug/gosym"
 	"fmt"
 	"io"
-	"objdump/internal/archive"
+	"objfile/internal/archive"
 	"os"
 	"sort"
 )
@@ -60,7 +60,6 @@ type RelocStringer interface {
 var openers = []func(io.ReaderAt) (rawFile, error){
 	openMacho,
 	openPlan9,
-	openXcoff,
 }
 
 // Open opens the named file.

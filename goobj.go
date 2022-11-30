@@ -12,10 +12,10 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"objdump/internal/archive"
-	"objdump/internal/goobj"
-	"objdump/internal/objabi"
-	"objdump/internal/sys"
+	"objfile/internal/archive"
+	"objfile/internal/goobj"
+	"objfile/internal/objabi"
+	"objfile/internal/sys"
 	"os"
 )
 
