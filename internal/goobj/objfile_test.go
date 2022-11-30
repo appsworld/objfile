@@ -8,7 +8,6 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	"internal/buildcfg"
 	"internal/testenv"
 	"io/ioutil"
 	"os"
@@ -16,6 +15,7 @@ import (
 	"testing"
 
 	"github.com/appsworld/objfile/internal/bio"
+	"github.com/appsworld/objfile/internal/buildcfg"
 	"github.com/appsworld/objfile/internal/objabi"
 )
 

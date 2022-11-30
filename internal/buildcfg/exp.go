@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"internal/goexperiment"
+	"github.com/appsworld/objfile/internal/goexperiment"
 )
 
 // Experiment contains the toolchain experiments enabled for the
