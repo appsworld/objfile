@@ -19,8 +19,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"objfile/internal/bio"
-	"objfile/internal/goobj"
+	"github.com/appsworld/objfile/internal/bio"
+	"github.com/appsworld/objfile/internal/goobj"
 )
 
 /*

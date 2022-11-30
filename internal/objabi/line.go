@@ -5,10 +5,11 @@
 package objabi
 
 import (
-	"objfile/internal/buildcfg"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/appsworld/objfile/internal/buildcfg"
 )
 
 // WorkingDir returns the current working directory

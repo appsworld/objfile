@@ -12,11 +12,12 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"objfile/internal/archive"
-	"objfile/internal/goobj"
-	"objfile/internal/objabi"
-	"objfile/internal/sys"
 	"os"
+
+	"github.com/appsworld/objfile/internal/archive"
+	"github.com/appsworld/objfile/internal/goobj"
+	"github.com/appsworld/objfile/internal/objabi"
+	"github.com/appsworld/objfile/internal/sys"
 )
 
 type goobjFile struct {

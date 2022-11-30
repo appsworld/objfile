@@ -7,7 +7,8 @@ package goobj
 import (
 	"bytes"
 	"encoding/binary"
-	"objfile/internal/objabi"
+
+	"github.com/appsworld/objfile/internal/objabi"
 )
 
 // CUFileIndex is used to index the filenames that are stored in the

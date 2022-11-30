@@ -24,8 +24,9 @@ import (
 	"errors"
 	"fmt"
 	"internal/unsafeheader"
-	"objfile/internal/bio"
 	"unsafe"
+
+	"github.com/appsworld/objfile/internal/bio"
 )
 
 // New object file format.

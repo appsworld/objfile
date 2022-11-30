@@ -11,12 +11,13 @@ import (
 	"io"
 	"io/ioutil"
 	"log"
-	"objfile/internal/buildcfg"
 	"os"
 	"reflect"
 	"sort"
 	"strconv"
 	"strings"
+
+	"github.com/appsworld/objfile/internal/buildcfg"
 )
 
 func Flagcount(name, usage string, val *int) {

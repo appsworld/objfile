@@ -10,9 +10,10 @@ import (
 	"debug/gosym"
 	"fmt"
 	"io"
-	"objfile/internal/archive"
 	"os"
 	"sort"
+
+	"github.com/appsworld/objfile/internal/archive"
 )
 
 type rawFile interface {

@@ -15,8 +15,8 @@ import (
 	"os/exec"
 	"testing"
 
-	"objfile/internal/bio"
-	"objfile/internal/objabi"
+	"github.com/appsworld/objfile/internal/bio"
+	"github.com/appsworld/objfile/internal/objabi"
 )
 
 func dummyWriter(buf *bytes.Buffer) *Writer {

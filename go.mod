@@ -1,4 +1,4 @@
-module objfile
+module github.com/appsworld/objfile
 
 go 1.18
 

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"objfile/internal/buildcfg"
+	"github.com/appsworld/objfile/internal/buildcfg"
 )
 
 const (
