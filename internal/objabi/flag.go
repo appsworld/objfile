@@ -350,7 +350,7 @@ func (f *DebugFlag) Set(debugstr string) error {
 				log.Fatalf(err)
 			}
 		} else {
-			return fmt.Errorf("unknown debug key %s\n", name)
+			return fmt.Errorf("unknown debug key %s", name)
 		}
 	}
 

@@ -5,7 +5,7 @@
 package objabi
 
 import (
-	"internal/buildcfg"
+	"objfile/internal/buildcfg"
 	"os"
 	"path/filepath"
 	"strings"

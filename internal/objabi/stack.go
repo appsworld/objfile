@@ -4,7 +4,7 @@
 
 package objabi
 
-import "internal/buildcfg"
+import "objfile/internal/buildcfg"
 
 // For the linkers. Must match Go definitions.
 
