@@ -4,7 +4,7 @@
 
 package goobj
 
-import "objdump/internal/buildcfg"
+import "objfile/internal/buildcfg"
 
 var builtins = [...]struct {
 	name string
