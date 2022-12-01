@@ -208,12 +208,12 @@ func (d *Disasm) Print(w io.Writer, filter *regexp.Regexp, start, end uint64, pr
 		symStart := sym.Addr
 		symEnd := sym.Addr + uint64(sym.Size)
 		relocs := sym.Relocs
-		if sym.Code != 'T' && sym.Code != 't' ||
-			symStart < d.textStart ||
-			symEnd <= start || end <= symStart ||
-			filter != nil && !filter.MatchString(sym.Name) {
-			continue
-		}
+		// if sym.Code != 'T' && sym.Code != 't' ||
+		// 	symStart < d.textStart ||
+		// 	symEnd <= start || end <= symStart ||
+		// 	filter != nil && !filter.MatchString(sym.Name) {
+		// 	continue
+		// }
 		if printed {
 			fmt.Fprintf(bw, "\n")
 		}
